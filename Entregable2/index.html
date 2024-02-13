@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        nav{
+            text-align: right;
+            margin: 10px;
+        }
+        a{
+            margin-right: 20px;
+        }
+        .letras-grid {
+            background-color: rgba(0, 0, 0, 0);
+            display: grid;
+            gap: 1px;
+            width: 50%;
+            color: white;
+        }
+        .l-1 {
+            grid-column: 1/4;
+            /*1,2,3*/
+            grid-row: 1/2;
+            font-size: 50px;
+            font-weight: bolder;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .l-2 {
+            grid-column: 2/3;
+            /*2*/
+            grid-row: 2/3;
+            font-size: 30px;
+        }
+        .l-3 {
+            grid-column: 3/4;
+            /*1,2,3*/
+            grid-row: 2/3;
+            font-size: 70px;
+            font-weight: bolder;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .l-4 {
+            grid-column: 3/4;
+            /*1,2,3*/
+            grid-row: 3/4;
+            font-size: 30px;
+        }
+        main {
+            display: flex;
+            background-image: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 338px;
+            padding-left: 60px;
+            align-items: center;
+        }
+        .letras-vector {
+            display: flex;
+            height: 80%;
+            width: 80%;
+        }
+        footer {
+            text-align: center;
+        }
+        .logo{
+            border-bottom: solid 1px gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg"
+                alt="primer imagen">
+        </div>
+        <nav>
+            <a href="">Residentes</a>
+            <a href="">Negocios</a>
+            <a href="">Visitantes</a>
+            <a href="">Gobierno</a>
+    </header>
+    <main>
+        </nav>
+        <div class="letras-vector">
+            <div class="vector">
+                <img
+                    src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero-vector.svg">
+            </div>
+            <div class="letras-grid">
+                <span class="l-1">APRENDE A PROGRAMAR</span>
+                <span class="l-2">EN LAS</span>
+                <span class="l-3">ESCUELAS<br>DE CÓDIGO</span>
+                <span class="l-4">DE LA CDMX</span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p style="color: #BC955C;">¿Quien se puede inscribir?</p>
+        <p><b>Cualquier persona que quiera aprender a programar código y cuenta con 4-8 horas disponibles a la
+                semana</b></p>
+        <p>Menores de edad deberan entrar a las instalaciones acompañados de un adulto.</p>
+    </footer>
+</body>
+</html>
