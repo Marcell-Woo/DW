@@ -6,3 +6,45 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
     font-family: 'Caveat',cursive;
     font-weight: 700; 
 }
+.portada{
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.recomendaciones{
+    color: black;
+    display: flex;
+}
+.d-flex{
+    display:flex;
+}
+.libros{
+    display: flex;
+}
+.tarjeta-libro{
+    display: flex;
+    width: 100px;
+    height: 200px;
+}
+.datos-autor{
+    display: flex;
+}
+.call-compra{
+    display: flex;
+}
+.btn-compra{
+    display:flex;
+}
+.portada-libro{
+    display: flex;
+    width: 100px;
+    height: 200px;
+}
